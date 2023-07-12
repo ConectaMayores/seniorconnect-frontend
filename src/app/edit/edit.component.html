@@ -1,0 +1,130 @@
+<router-outlet>
+
+  <!-- component -->
+  <nav class="bg-indigo-600 flex justify-between px-10 items-center py-6">
+    <div class="flex items-center space-x-2">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+      </svg>
+      <button routerLink="" class="text-white font-bold text-xl cursor-pointer">SeniorConnect</button>
+    </div>
+    <div class="flex items-center space-x-8 font-bold text-white">
+      <button routerLink="/perfil"class="cursor-pointer text-lg">Perfil</button>
+      <button routerLink="/login" class="cursor-pointer text-lg">Login</button>
+      <button routerLink="/registro" class="cursor-pointer text-lg">Register</button>
+    </div>
+  </nav>
+  <!-- component -->
+  <!-- component -->
+  <!-- component -->
+  <!-- component -->
+  <div class="flex items-center justify-center p-12">
+    <!-- Author: FormBold Team -->
+    <!-- Learn More: https://formbold.com -->
+    <div class="mx-auto w-full max-w-[550px]">
+      <form  method="POST">
+        <div class="mb-5">
+          <label
+            for="name"
+            class="mb-3 block text-base font-medium text-[#07074D]"
+          >
+            Nombre
+          </label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Nombre completo"
+            class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+          />
+        </div>
+        <div class="mb-5">
+          <label
+            for="email"
+            class="mb-3 block text-base font-medium text-[#07074D]"
+          >
+            Fecha de Nacimiento
+          </label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="xx/xx/xx"
+            class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+          />
+        </div>
+        <div class="mb-5">
+          <label
+            for="subject"
+            class="mb-3 block text-base font-medium text-[#07074D]"
+          >
+            Telefono
+          </label>
+          <input
+            type="text"
+            name="subject"
+            id="subject"
+            placeholder="909090909090"
+            class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+          />
+        </div>
+
+        <div class="mb-5">
+          <label
+            for="subject"
+            class="mb-3 block text-base font-medium text-[#07074D]"
+          >
+            Correo
+          </label>
+          <input
+            type="text"
+            name="subject"
+            id="subject"
+            placeholder="@ejemplo.com"
+            class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+          />
+        </div>
+
+        <div class="mb-5">
+          <label
+            for="subject"
+            class="mb-3 block text-base font-medium text-[#07074D]"
+          >
+            Direccion
+          </label>
+          <input
+            type="text"
+            name="subject"
+            id="subject"
+            placeholder="AV."
+            class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+          />
+        </div>
+        <div class="mb-5">
+          <label
+            for="message"
+            class="mb-3 block text-base font-medium text-[#07074D]"
+          >
+            Sobre mi
+          </label>
+          <textarea
+            rows="4"
+            name="message"
+            id="message"
+            placeholder=""
+            class="w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+          ></textarea>
+        </div>
+        <div>
+          <button
+            routerLink="/perfil" class="hover:shadow-form rounded-md bg-[#6A64F1] py-3 px-8 text-base font-semibold text-white outline-none"
+          >
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+</router-outlet>
