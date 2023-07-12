@@ -9,6 +9,7 @@ import { RegistroComponent } from './registro/registro.component';
 import { RutinasComponent } from './rutinas/rutinas.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { TiporutinaComponent } from './tiporutina/tiporutina.component';
+import {EditComponent} from "./edit/edit.component";
 const routes: Routes = [
 
   {path: '', component: HomeComponent},
@@ -19,8 +20,7 @@ const routes: Routes = [
   {path: 'rutinas',component: RutinasComponent},
   {path: 'perfil',component: PerfilComponent},
   {path: 'tiporutina',component: TiporutinaComponent},
-  
-
+  {path: 'edit',component: EditComponent},
 ];
 
 @NgModule({

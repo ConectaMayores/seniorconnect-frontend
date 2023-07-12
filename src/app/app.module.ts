@@ -11,6 +11,11 @@ import { PerfilComponent } from './perfil/perfil.component';
 import { EpecialistaComponent } from './epecialista/epecialista.component';
 import { RutinasComponent } from './rutinas/rutinas.component';
 import { TiporutinaComponent } from './tiporutina/tiporutina.component';
+import {HttpClientModule} from "@angular/common/http";
+import {FormsModule} from "@angular/forms";
+import { ListaUsuariosComponent } from './registro/lista-usuarios/lista-usuarios.component';
+import { EditComponent } from './edit/edit.component';
+
 
 @NgModule({
   declarations: [
@@ -22,11 +27,15 @@ import { TiporutinaComponent } from './tiporutina/tiporutina.component';
     PerfilComponent,
     EpecialistaComponent,
     RutinasComponent,
-    TiporutinaComponent
+    TiporutinaComponent,
+    ListaUsuariosComponent,
+    EditComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
