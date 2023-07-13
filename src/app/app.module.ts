@@ -11,6 +11,15 @@ import { PerfilComponent } from './perfil/perfil.component';
 import { EpecialistaComponent } from './epecialista/epecialista.component';
 import { RutinasComponent } from './rutinas/rutinas.component';
 import { TiporutinaComponent } from './tiporutina/tiporutina.component';
+<<<<<<< HEAD
+import {HttpClientModule} from "@angular/common/http";
+import {FormsModule} from "@angular/forms";
+import { ListaUsuariosComponent } from './registro/lista-usuarios/lista-usuarios.component';
+import { EditComponent } from './edit/edit.component';
+
+=======
+import { AsistenteComponent } from './asistente/asistente.component';
+>>>>>>> b3f374bbcb66e0e2b50323be636697c0fecc9d3d
 
 @NgModule({
   declarations: [
@@ -22,11 +31,19 @@ import { TiporutinaComponent } from './tiporutina/tiporutina.component';
     PerfilComponent,
     EpecialistaComponent,
     RutinasComponent,
-    TiporutinaComponent
+    TiporutinaComponent,
+<<<<<<< HEAD
+    ListaUsuariosComponent,
+    EditComponent
+=======
+    AsistenteComponent
+>>>>>>> b3f374bbcb66e0e2b50323be636697c0fecc9d3d
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -9,6 +9,11 @@ import { RegistroComponent } from './registro/registro.component';
 import { RutinasComponent } from './rutinas/rutinas.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { TiporutinaComponent } from './tiporutina/tiporutina.component';
+<<<<<<< HEAD
+import {EditComponent} from "./edit/edit.component";
+=======
+import { AsistenteComponent } from './asistente/asistente.component';
+>>>>>>> b3f374bbcb66e0e2b50323be636697c0fecc9d3d
 const routes: Routes = [
 
   {path: '', component: HomeComponent},
@@ -19,8 +24,12 @@ const routes: Routes = [
   {path: 'rutinas',component: RutinasComponent},
   {path: 'perfil',component: PerfilComponent},
   {path: 'tiporutina',component: TiporutinaComponent},
-  
+<<<<<<< HEAD
+  {path: 'edit',component: EditComponent},
+=======
+  {path: 'asistente',component: AsistenteComponent},
 
+>>>>>>> b3f374bbcb66e0e2b50323be636697c0fecc9d3d
 ];
 
 @NgModule({
